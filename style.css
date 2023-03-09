@@ -1,0 +1,110 @@
+body {
+  background: linear-gradient(270deg,#3f5efb,#fc466b);
+    /* -webkit-background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
+    /* background-color: lightblue; */
+  }
+  h1{
+    font-size: 65px;
+    background: linear-gradient(270deg,#222121,#e4dddd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  #clockContainer {
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    /*to make the height and width responsive*/
+    width: 40vw;
+    background: url(kisspng-clock-face-roman-numerals-royalty-free-alarm-clock-wall-clock-5ad0ea9f91ae64.7849988115236409915967.png) no-repeat;
+    /*setting our background image*/
+    background-size: 100%;
+  }
+  
+  #hour,
+  #minute,
+  #second {
+    position: absolute;
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+    transform-origin: bottom;
+  }
+  
+  #hour {
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;
+  }
+  
+  #minute {
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.8;
+  }
+  
+  #second {
+    width: 1%;
+    height: 39.75%;
+    top: 9%;
+    left: 49.25%;
+    opacity: 0.8;
+  }
+  
+  .audio {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40vw;
+    /*to make the height and width responsive*/
+    width: 40vw;
+  }
+  
+  /* This is a single-line comment */
+  
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: 3px solid #3b21ad;
+    padding: 10px;
+  }
+  
+  p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  label {
+    font-size: 28px;
+  }
+  
+  #party {
+    font-size: 28px;
+    color: #0320fc;
+  }
+  
+  form {
+    margin: 0 auto;
+    width: 800px;
+  }
+  
+  #d2{
+    border-radius: 10px;
+  }
+  #alarmTime {
+    font-size: 28px;
+    border-radius: 10px;
+  }
+  
+  #alarmButton {
+    font-size: 28px;
+    border-radius: 10px;
+  }
+
